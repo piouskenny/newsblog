@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf)
+} */
+
+* {
+    font-family: inter;
+}
+
+.slogan {
+    letter-spacing: .1px;
+    word-spacing: .5px;
+}
+
+#hero {
+    background-image: url(../src/assets/img/image-web-3-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 96%;
+}
+
+/* Mobile Menu and Her0 Section */
+@media (max-width:600px) {
+    #menu {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    #hero {
+        background-image: url(../src/assets/img/image-web-3-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
