@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
 
-      <main className="md:mx-6">
+      <main className="md:mx-6 pt-4">
         <div className="grid md:grid-cols-3 md:mt-2">
           {/* Hero and side bar section */}
           <div className="md:col-span-2 md:ml-6 mx-6 md:pr-6">
