@@ -2,6 +2,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [navbtn, setNavbtn] = useState(false);
 
+
   function btnchange() {
     const menu = document.querySelector("#menu");
 
@@ -54,7 +55,7 @@ const Navbar = () => {
       </div>
 
       <ul
-        class="p-5 text-sm  bg-white h-screen  hidden md:h-0 items-center md:flex text-start md:relative fixed z-0"
+        className="p-5 text-sm  bg-white h-screen  hidden md:h-0 items-center md:flex text-start md:relative fixed z-0"
         id="menu"
       >
         <div className="md:flex mt-8 md:mt-0">
