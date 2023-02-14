@@ -11,15 +11,21 @@ function App() {
       <Navbar />
 
       <main className="md:mx-6 pt-4">
-        <div className="grid md:grid-cols-3">
+        <div className="grid md:grid-cols-3 md:mt-2">
           {/* Hero and side bar section */}
-          <div className="md:col-span-2 md:ml-6 mx-6 md:pr-6 pt-12 md:pt-0">
+          <div className="md:col-span-2 md:ml-6 mx-6 md:pr-6">
             {/* Hero */}
-
+            {/* <img src={Deskhero} alt="" className="h-80 w-full" /> */}
 
             <div className="h-80 w-full" id="hero">
 
             </div>
+
+            {/* <img src={MobileHero} alt="" className="h-80 w-full" /> */}
+
+
+            {/* Image place holder */}
+            {/* <div className="bg-orange-400 h-60 w-auto"></div> */}
 
             <div className="grid md:grid-cols-2 mt-6">
               <div className="md:col-span-1">
