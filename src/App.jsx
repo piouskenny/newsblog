@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./components/navbar";
 import Deskhero from "./assets/img/image-web-3-desktop.jpg";
 import MobileHero from './assets/img/image-web-3-mobile.jpg';
