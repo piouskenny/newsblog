@@ -44,12 +44,10 @@ const Navbar = () => {
                 />
               </svg>
             ) : (
-              <svg  width="32" height="31" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6">
-                <g fill="#00001A" fill-rule="evenodd">
-                  <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
-                  <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
-                </g>
-              </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" className="w-6 h-6"/>
+                </svg>
+
             )}
           </div>
         </div>
